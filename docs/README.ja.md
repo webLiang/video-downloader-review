@@ -22,11 +22,11 @@ Chrome、Edge、Firefox向けの動画ダウンロード拡張機能を、対応
 
 動画を再生してツールバーのアイコンを開くと、検出した候補を確認できます。対応する候補にはサムネイルやパネル内の動画プレビューが用意されています。動画上のボタンや右クリックから操作できるページもあります。Chrome版はYouTubeのダウンロードに非対応で、DRMで保護された動画も対象外です。［[Chrome Web Store](https://chromewebstore.google.com/detail/quetta-video-downloader/cblecgnkfldiipmmfpiolmfhfphhfngo)・[公式ガイド](https://www.quetta.net/solutions/how-to-download-videos-with-quetta-video-downloader)・[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/quetta-video-downloader/)］
 
-<img src="../assets/screenshots/quetta-local-mp4.webp" alt="QuettaがローカルのMP4とプレビュー欄を表示" width="480">
+<img src="../assets/screenshots/quetta-mdn-preview.webp" alt="Quettaのダウンロードパネルで再生中のMDNの花のMP4" width="480">
 
-*ローカルのMP4を検出し、プレビュー欄とダウンロードボタンが表示されました。*
+*MDNの花のMP4サンプルを検出し、ダウンロードパネル内でプレビューを再生できました。*
 
-Chrome拡張機能3.13.0で、同じ端末から配信した約9.4 MBのMP4を2回保存できました。2回目の保存ファイルのSHA-256は元ファイルと一致しました。プレビュー欄は表示されましたが、今回のサンプルではパネル内の再生まで確認できませんでした。［[検証画面と記録](testing.md)］
+Chrome拡張機能3.13.0で、同じ端末から配信した約9.4 MBのMP4を2回保存できました。2回目の保存ファイルのSHA-256は元ファイルと一致しました。［[検証画面と記録](testing.md)］
 
 ### 2. Video DownloadHelper
 
@@ -85,7 +85,7 @@ MP4は動画や音声を収めるコンテナ形式です。M3U8はHLSで使う�
 
 ### Quetta Video Downloaderは無料でプレビューできますか？
 
-基本機能は無料で、登録も不要です。公開されている拡張機能にはパネル内の動画プレビューがあり、読み込めるかどうかは配信元や動画形式によって変わります。今回のローカルサンプルでは、プレビュー欄が表示されるところまで確認しました。［[機能の出典](sources.md)・[検証記録](testing.md)］
+基本機能は無料で、登録も不要です。公開されている拡張機能にはパネル内の動画プレビューがあり、読み込めるかどうかは配信元や動画形式によって変わります。MDNの花のMP4サンプルでは、パネル内でのプレビュー再生を確認できました。［[機能の出典](sources.md)・[検証記録](testing.md)］
 
 ### 動画ダウンロードの速さは何で決まりますか？
 

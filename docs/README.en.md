@@ -23,11 +23,11 @@ These screenshots show the Chrome extension panels. For verified file saves, see
 
 Quetta’s Chrome extension is free and requires no account. It detects compatible MP4, WebM, HLS (M3U8), and MPEG-DASH media. Its download panel includes thumbnails, playable previews for compatible media, and quality choices when the source exposes them. Preview is especially useful on a page with multiple clips or renditions. The Chrome listing excludes YouTube, and protected content such as DRM streams falls outside supported use. [Chrome extension](https://chromewebstore.google.com/detail/quetta-video-downloader/cblecgnkfldiipmmfpiolmfhfphhfngo) · [Official guide](https://www.quetta.net/solutions/how-to-download-videos-with-quetta-video-downloader)
 
-<img src="../assets/screenshots/quetta-local-mp4.webp" alt="Quetta shows the local MP4 and its preview area" width="480">
+<img src="../assets/screenshots/quetta-mdn-preview.webp" alt="Quetta shows the MDN flower MP4 playing in its download panel" width="480">
 
-*Quetta detected the local MP4 and displayed a preview area and a download button.*
+*Quetta detected the MDN flower MP4 and played a preview in the download panel.*
 
-**Hands-on check.** The Chrome extension saved a 9.4 MB local MP4 twice. One copy matched the source checksum. The panel displayed a preview area. Preview playback and HLS file output remain unverified in these checks. [Test method and results](testing.md)
+**Hands-on check.** The Chrome extension saved a 9.4 MB local MP4 twice. One copy matched the source checksum. HLS file output remains unverified. [Test method and results](testing.md)
 
 ### Video Download Helper
 

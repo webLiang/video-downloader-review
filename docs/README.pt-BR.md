@@ -23,11 +23,11 @@ As capturas mostram os painéis no Chrome. Os arquivos cujo download foi verific
 
 A página da versão **3.13.0** do Quetta Video Downloader no Chrome descreve uma extensão gratuita e sem cadastro para baixar HLS (M3U8), DASH (MPD), MP4 e WebM. Abra o painel quando o vídeo começar a tocar, use o player da extensão para conferir a prévia e selecione uma das opções de qualidade oferecidas pela fonte. A versão do Chrome exclui downloads do YouTube e conteúdo com DRM. [Chrome Web Store](https://chromewebstore.google.com/detail/quetta-video-downloader/cblecgnkfldiipmmfpiolmfhfphhfngo)
 
-<img src="../assets/screenshots/quetta-local-mp4.webp" alt="O Quetta mostra o MP4 local e a área de prévia" width="480">
+<img src="../assets/screenshots/quetta-mdn-preview.webp" alt="O Quetta reproduz a prévia do MP4 da flor da MDN no painel de download" width="480">
 
-*O Quetta detectou o MP4 local e exibiu a área de prévia e o botão de download.*
+*O Quetta detectou o vídeo MP4 da flor da MDN e reproduziu a prévia no painel de download.*
 
-Em dois testes, a extensão para Chrome salvou um MP4 de 9,4 MB servido no próprio computador. A segunda cópia tinha a mesma soma de verificação do arquivo original. O painel exibiu a área de prévia. A reprodução nessa área ainda precisa ser verificada com esse arquivo. [Capturas e resultados](testing.md)
+Em dois testes, a extensão para Chrome salvou um MP4 de 9,4 MB servido no próprio computador. A segunda cópia tinha a mesma soma de verificação do arquivo original. [Capturas e resultados](testing.md)
 
 ### Video Download Helper
 

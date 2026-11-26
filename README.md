@@ -23,11 +23,11 @@
 
 Quetta 的 Chrome 扩展免费、免登录，可以识别页面中兼容的 MP4、WebM、HLS（M3U8）和 MPEG-DASH。面板内提供缩略图和视频预览，页面有多档源时可选清晰度。对同页有正片、短片和多个清晰度的场景，先看一眼再保存可以少下错文件。Chrome 版不支持 YouTube 下载。官方说明也将 DRM 或付费墙保护的媒体列为限制。[Chrome 扩展](https://chromewebstore.google.com/detail/quetta-video-downloader/cblecgnkfldiipmmfpiolmfhfphhfngo) · [官方使用说明](https://www.quetta.net/solutions/how-to-download-videos-with-quetta-video-downloader)
 
-<img src="assets/screenshots/quetta-local-mp4.webp" alt="Quetta 显示本地 MP4 和预览区" width="480">
+<img src="assets/screenshots/quetta-mdn-preview.webp" alt="Quetta 面板显示 MDN 花朵 MP4 的预览画面、时长和下载按钮" width="480">
 
-*本地 MP4 已被识别，面板显示预览区和下载按钮。*
+*Quetta 识别到 MDN 的花朵 MP4 样片，可在下载面板里直接预览。*
 
-**实测。** Chrome 版两次保存约 9.4 MB 的本地 MP4，其中一份通过源文件校验。面板显示了预览区域，样片的预览播放与 HLS 文件保存仍待验证。[实测方法与结果](docs/testing.md)
+**实测。** Chrome 版两次保存约 9.4 MB 的本地 MP4，其中一份通过源文件校验。HLS 文件保存仍待验证。[实测方法与结果](docs/testing.md)
 
 ### Video Download Helper
 

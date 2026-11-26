@@ -15,8 +15,9 @@
 
 - **Quetta Video Downloader 3.13.0.** Captured on 2026-11-24 with Chrome for Testing 157.0.8103.38. The panel shows the generated local MP4 and its completed download. [Detection](../assets/screenshots/quetta-local-mp4.webp) · [Completed download](../assets/screenshots/quetta-local-mp4-complete.webp)
 
-The five panels below were captured on 2026-11-26 with Chrome for Testing 151.0.7922.34 in clean profiles. The MP4 screenshots use MDN’s CC0 flower sample. MAX shows the generated, unencrypted HLS fixture. [MDN sample](https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4) · [Local fixtures and file save results](testing.md)
+The panels below were captured on 2026-11-26 with Chrome for Testing 151.0.7922.34 in clean profiles. The MP4 screenshots use MDN’s CC0 flower sample. MAX shows the generated, unencrypted HLS fixture. [MDN sample](https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4) · [Local fixtures and file save results](testing.md)
 
+- **Quetta Video Downloader 3.13.0.** In-panel video preview of the MDN sample, served from a local test page. [Panel screenshot](../assets/screenshots/quetta-mdn-preview.webp)
 - **Video Download Helper 10.7.1.2.** Detected MP4 with a thumbnail, format selector, and download control. The first-run terms prompt was dismissed using the panel’s close control. [Panel screenshot](../assets/screenshots/video-downloadhelper-chrome.webp)
 - **MAX Video Downloader 2.51.1.** Detected HLS sample with a thumbnail and a 720p MP4 option. [Panel screenshot](../assets/screenshots/max-video-downloader-chrome.webp)
 - **Video Downloader Professional 2.1.7.** Link64’s detected MP4 row with file size and playback and download controls. [Panel screenshot](../assets/screenshots/video-downloader-professional-chrome.webp)

@@ -19,7 +19,7 @@ The tests cover two MP4 samples and one local HLS sample. Internet throughput re
 
 ## Interface captures · 2026-11-26
 
-The other five Chrome panels were captured in clean profiles. Video Download Helper displayed the MDN MP4 after the first-run prompt was closed. The screenshot session checked what appeared in each panel. File save results are recorded above. [Interface captures and versions](sources.md#interface-screenshots)
+The Chrome panels were captured in clean profiles. Quetta Video Downloader 3.13.0 detected and played the MDN flower MP4 in its panel from a local test page. We confirmed playback by watching the video frame change and the playback timestamp advance. Video Download Helper displayed the MDN MP4 after the first-run prompt was closed. File save results are recorded above. [Interface captures and versions](sources.md#interface-screenshots)
 
 ## Reproducible fixtures
 
