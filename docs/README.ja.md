@@ -14,13 +14,17 @@ Chrome、Edge、Firefox向けの動画ダウンロード拡張機能を、対応
 
 ## 6つの動画ダウンローダー
 
+各画像はChrome拡張機能の操作画面です。ファイルを保存できたかどうかは[検証結果](testing.md)で確認できます。
+
 ### 1. Quetta Video Downloader
 
 対応ブラウザーはChrome、Edge、Firefox。基本的なダウンロード機能は無料で、アカウント登録も不要です。Chrome公式ストアにはMP4、WebM、HLS（M3U8）、MPEG-DASH、対応するライブ配信の保存が記載されています。配信元が複数の画質を提供していれば、ダウンロード前に選択できます。
 
 動画を再生してツールバーのアイコンを開くと、検出した候補を確認できます。対応する候補にはサムネイルやパネル内の動画プレビューが用意されています。動画上のボタンや右クリックから操作できるページもあります。Chrome版はYouTubeのダウンロードに非対応で、DRMで保護された動画も対象外です。［[Chrome Web Store](https://chromewebstore.google.com/detail/quetta-video-downloader/cblecgnkfldiipmmfpiolmfhfphhfngo)・[公式ガイド](https://www.quetta.net/solutions/how-to-download-videos-with-quetta-video-downloader)・[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/quetta-video-downloader/)］
 
-![Quetta Video DownloaderのChrome拡張機能がローカルのMP4を検出した画面](../assets/screenshots/quetta-local-mp4.webp)
+<img src="../assets/screenshots/quetta-local-mp4.webp" alt="QuettaがローカルのMP4とプレビュー欄を表示" width="480">
+
+*ローカルのMP4を検出し、プレビュー欄とダウンロードボタンが表示されました。*
 
 Chrome拡張機能3.13.0で、同じ端末から配信した約9.4 MBのMP4を2回保存できました。2回目の保存ファイルのSHA-256は元ファイルと一致しました。プレビュー欄は表示されましたが、今回のサンプルではパネル内の再生まで確認できませんでした。［[検証画面と記録](testing.md)］
 
@@ -28,23 +32,43 @@ Chrome拡張機能3.13.0で、同じ端末から配信した約9.4 MBのMP4を2�
 
 Chrome、Edge、Firefox向けの拡張機能で、HLSやMPEG-DASHに対応しています。動画をMP4、MKV、WebMに変換したり、音声をMP3として取り出したりしたい場合に候補になります。基本機能は無料で、ダウンロード回数の制限解除や字幕などを含む有料プランもあります。使える機能はブラウザーとプランで確認できます。［[Chrome Web Store](https://chromewebstore.google.com/detail/video-download-helper/lmjnegcaeklhafolokijcfjliaokphfk)・[公式プラン案内](https://downloadhelper.net/premium)］
 
+<img src="../assets/screenshots/video-downloadhelper-chrome.webp" alt="Video DownloadHelperに表示されたflower.mp4のサムネイル、形式、ダウンロードボタン" width="500">
+
+*MDNのMP4サンプルのサムネイルと形式選択欄が表示されています。*
+
 ### 3. MAX Video Downloader
 
 Chrome向けの無料拡張機能です。公式ストアにはHLS、MPEG-DASH、MP4、WebM、対応するライブ配信に加え、音声や字幕の抽出も記載されています。検出一覧にはプレビュー用のサムネイルがあり、複数の候補が表示されたときに見分けやすくなります。音声や字幕を取り出せるかどうかは、配信元が提供するトラックに左右されます。［[Chrome Web Store](https://chromewebstore.google.com/detail/max-video-downloader-%E2%80%93-do/kjinbaahkmjgkkedfdgpkkelehofieke)・[MAX公式サイト](https://maxvideodownloader.pro/)］
+
+<img src="../assets/screenshots/max-video-downloader-chrome.webp" alt="MAX Video Downloaderに表示されたローカルのHLSと720pのMP4オプション" width="420">
+
+*検出されたローカルのHLSサンプルに、サムネイルと720pのMP4オプションが表示されています。*
 
 ### 4. Video Downloader Professional
 
 ここではChrome Web StoreでLink64が公開している製品を扱います。無料でインストールでき、ページで検出した動画を候補一覧から選ぶ基本操作は、直接配信のMP4を保存するときに使いやすい構成です。HLSやMPEG-DASHの対応は公式掲載情報から確認できていません。［[Chrome Web Store](https://chromewebstore.google.com/detail/video-downloader-professi/elicpjhcidhpjomhibiffojpinpmmpil)］
 
+<img src="../assets/screenshots/video-downloader-professional-chrome.webp" alt="Video Downloader Professionalに表示されたMP4とダウンロードボタン" width="380">
+
+*Link64版はMDNのMP4サンプルを検出し、ファイルサイズとダウンロードボタンを表示しました。*
+
 ### 5. FetchV（M3U8・HLS動画ダウンローダー）
 
 ChromeとEdge向けに提供される無料の拡張機能で、登録は不要です。HLS（M3U8）、オンデマンドのMPEG-DASH、MP4やWebMの直接配信に対応しています。検出したリソースの確認やプレビューができ、互換性のある分割動画をまとめて保存したいときに便利です。Chrome版ではYouTubeとDRMで保護された動画は対象外です。［[FetchV公式サイト](https://fetchv.net/)・[Chrome Web Store](https://chromewebstore.google.com/detail/fetchv-video-downloader-f/nfmmmhanepmpifddlkkmihkalkoekpfd)］
+
+<img src="../assets/screenshots/fetchv-chrome.webp" alt="FetchVに表示されたMP4のサムネイルと画質とダウンロードボタン" width="514">
+
+*MDNのMP4サンプルにサムネイルと480pの選択肢が表示されました。*
 
 ### 6. Cat Catch（猫抓）
 
 Chrome、Edge、Firefoxでブラウザーが読み込むメディアを一覧表示するオープンソースの拡張機能です。GPL-3.0で公開されており、対応する動画のプレビューのほか、HLS（M3U8）やMPEG-DASHの解析機能もあります。動画、音声、プレイリストのどれを選ぶべきか確認しながら使いたい人に向いています。［[Cat Catch公式GitHubリポジトリ](https://github.com/xifangczy/cat-catch)・[公式インストールガイド](https://cat-catch.94cat.com/docs/install)］
 
 [プロジェクトの画面を見る](https://raw.githubusercontent.com/xifangczy/cat-catch/master/README/popup.png)
+
+<img src="../assets/screenshots/cat-catch-chrome.webp" alt="Cat Catchに表示されたflower.mp4のコピーとプレビューとダウンロードのボタン" width="640">
+
+*現在のページの一覧にMDNのflower.mp4が表示され、コピー・プレビュー・ダウンロードを選べます。*
 
 ## サイトによってダウンロード方法はどう変わるか
 

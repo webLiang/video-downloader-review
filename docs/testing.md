@@ -17,6 +17,10 @@ The tests cover two MP4 samples and one local HLS sample. Internet throughput re
 
 ![Quetta Chrome extension reports the local MP4 download complete](../assets/screenshots/quetta-local-mp4-complete.webp)
 
+## Interface captures · 2026-11-26
+
+The other five Chrome panels were captured in clean profiles. Video Download Helper displayed the MDN MP4 after the first-run prompt was closed. The screenshot session checked what appeared in each panel. File save results are recorded above. [Interface captures and versions](sources.md#interface-screenshots)
+
 ## Reproducible fixtures
 
 The local fixtures contain a 20-second FFmpeg test pattern and a 440 Hz tone. One page plays the original H.264/AAC MP4. The other uses the same encoded media in an unencrypted HLS video-on-demand playlist with ten two-second MPEG-TS segments.

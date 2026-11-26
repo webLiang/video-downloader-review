@@ -13,7 +13,16 @@
 
 ## Interface screenshots
 
-- **Quetta Chrome extension.** Screenshots captured while detecting and saving a generated MP4. [Detection](../assets/screenshots/quetta-local-mp4.webp) · [Completed download](../assets/screenshots/quetta-local-mp4-complete.webp)
+- **Quetta Video Downloader 3.13.0.** Captured on 2026-11-24 with Chrome for Testing 157.0.8103.38. The panel shows the generated local MP4 and its completed download. [Detection](../assets/screenshots/quetta-local-mp4.webp) · [Completed download](../assets/screenshots/quetta-local-mp4-complete.webp)
+
+The five panels below were captured on 2026-11-26 with Chrome for Testing 151.0.7922.34 in clean profiles. The MP4 screenshots use MDN’s CC0 flower sample. MAX shows the generated, unencrypted HLS fixture. [MDN sample](https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4) · [Local fixtures and file save results](testing.md)
+
+- **Video Download Helper 10.7.1.2.** Detected MP4 with a thumbnail, format selector, and download control. The first-run terms prompt was dismissed using the panel’s close control. [Panel screenshot](../assets/screenshots/video-downloadhelper-chrome.webp)
+- **MAX Video Downloader 2.51.1.** Detected HLS sample with a thumbnail and a 720p MP4 option. [Panel screenshot](../assets/screenshots/max-video-downloader-chrome.webp)
+- **Video Downloader Professional 2.1.7.** Link64’s detected MP4 row with file size and playback and download controls. [Panel screenshot](../assets/screenshots/video-downloader-professional-chrome.webp)
+- **FetchV 4.0.4.** Detected MP4 with a thumbnail, quality selector, and download control. [Panel screenshot](../assets/screenshots/fetchv-chrome.webp)
+- **Cat Catch 2.7.4.** Detected MP4 in the current-page list with copy, preview, and download controls. [Panel screenshot](../assets/screenshots/cat-catch-chrome.webp)
+
 - **Publisher and project galleries.** [Quetta](https://addons.mozilla.org/en-US/firefox/addon/quetta-video-downloader/) · [Video Download Helper](https://chromewebstore.google.com/detail/video-download-helper/lmjnegcaeklhafolokijcfjliaokphfk) · [MAX Video Downloader](https://chromewebstore.google.com/detail/max-video-downloader-%E2%80%93-do/kjinbaahkmjgkkedfdgpkkelehofieke) · [Video Downloader Professional](https://chromewebstore.google.com/detail/video-downloader-professi/elicpjhcidhpjomhibiffojpinpmmpil) · [FetchV](https://chromewebstore.google.com/detail/fetchv-video-downloader-f/nfmmmhanepmpifddlkkmihkalkoekpfd) · [Cat Catch](https://github.com/xifangczy/cat-catch#readme)
 
 ## Websites and test media

@@ -17,13 +17,15 @@
 
 ## As seis extensões
 
-As fichas de cada extensão mostram a interface e descrevem os recursos disponíveis. [Fontes](sources.md)
+As capturas mostram os painéis no Chrome. Os arquivos cujo download foi verificado constam nos [resultados dos testes](testing.md).
 
 ### Quetta Video Downloader
 
-![Painel da extensão Quetta Video Downloader para Chrome ao detectar o MP4 de teste](../assets/screenshots/quetta-local-mp4.webp)
-
 A página da versão **3.13.0** do Quetta Video Downloader no Chrome descreve uma extensão gratuita e sem cadastro para baixar HLS (M3U8), DASH (MPD), MP4 e WebM. Abra o painel quando o vídeo começar a tocar, use o player da extensão para conferir a prévia e selecione uma das opções de qualidade oferecidas pela fonte. A versão do Chrome exclui downloads do YouTube e conteúdo com DRM. [Chrome Web Store](https://chromewebstore.google.com/detail/quetta-video-downloader/cblecgnkfldiipmmfpiolmfhfphhfngo)
+
+<img src="../assets/screenshots/quetta-local-mp4.webp" alt="O Quetta mostra o MP4 local e a área de prévia" width="480">
+
+*O Quetta detectou o MP4 local e exibiu a área de prévia e o botão de download.*
 
 Em dois testes, a extensão para Chrome salvou um MP4 de 9,4 MB servido no próprio computador. A segunda cópia tinha a mesma soma de verificação do arquivo original. O painel exibiu a área de prévia. A reprodução nessa área ainda precisa ser verificada com esse arquivo. [Capturas e resultados](testing.md)
 
@@ -31,21 +33,41 @@ Em dois testes, a extensão para Chrome salvou um MP4 de 9,4 MB servido no próp
 
 Disponível para Chrome, Firefox e Edge. A página do Chrome descreve suporte a HLS e DASH, conversão para MP4, MKV ou WebM e extração de áudio em MP3. As funções básicas são gratuitas. O plano Premium inclui downloads ilimitados e recursos de legendas. No painel, você pode conferir a qualidade e o formato das opções detectadas. A versão para Chrome exclui downloads do YouTube. [Página e capturas da Chrome Web Store](https://chromewebstore.google.com/detail/video-download-helper/lmjnegcaeklhafolokijcfjliaokphfk) · [Planos do desenvolvedor](https://downloadhelper.net/premium)
 
+<img src="../assets/screenshots/video-downloadhelper-chrome.webp" alt="O Video Download Helper mostra a miniatura de flower.mp4, o formato e o botão de download" width="500">
+
+*O painel exibe a miniatura da amostra da MDN e uma opção no formato MP4.*
+
 ### MAX Video Downloader
 
 Extensão gratuita para Chrome com suporte a HLS, DASH, MP4 e WebM e miniaturas para identificar os vídeos detectados. Você pode selecionar pistas e legendas e reuni-las no próprio dispositivo. O aplicativo complementar de desktop é opcional e atende a tarefas mais pesadas. A página da extensão exclui YouTube e conteúdo protegido por DRM. [Página e capturas da Chrome Web Store](https://chromewebstore.google.com/detail/max-video-downloader-%E2%80%93-do/kjinbaahkmjgkkedfdgpkkelehofieke) · [Recursos e miniaturas](https://maxvideodownloader.pro/) · [Processamento local](https://maxvideodownloader.pro/architecture)
+
+<img src="../assets/screenshots/max-video-downloader-chrome.webp" alt="O MAX Video Downloader mostra a amostra HLS local e a opção de MP4 em 720p" width="420">
+
+*A lista de vídeos mostra a amostra HLS local com uma miniatura e a opção de MP4 em 720p.*
 
 ### Video Downloader Professional
 
 A versão da Link64 GmbH tem instalação gratuita no Chrome. A página descreve a seleção de resolução quando o site oferece opções, o envio de vídeos MP4 ao Chromecast e uma lista para voltar aos vídeos depois. O suporte a HLS e DASH fica em aberto. A extensão informa restrições para downloads do YouTube, Instagram, Dailymotion, VK e TikTok. [Página e capturas da Chrome Web Store](https://chromewebstore.google.com/detail/video-downloader-professi/elicpjhcidhpjomhibiffojpinpmmpil)
 
+<img src="../assets/screenshots/video-downloader-professional-chrome.webp" alt="O Video Downloader Professional mostra um MP4 com um botão de download" width="380">
+
+*A versão da Link64 mostra o MP4 da MDN com o tamanho do arquivo e o botão de download.*
+
 ### FetchV · Downloader de M3U8 e HLS
 
 Extensão gratuita para Chrome e Edge. Detecta HLS, inclusive transmissões ao vivo, DASH sob demanda e arquivos MP4 ou WebM. Tem prévia e permite salvar uma transmissão HLS como MP4. Dê play no vídeo para que o FetchV identifique os recursos carregados. A documentação exclui YouTube e conteúdo protegido por DRM. [Site do FetchV](https://fetchv.net/) · [Capturas na Chrome Web Store](https://chromewebstore.google.com/detail/fetchv-video-downloader-f/nfmmmhanepmpifddlkkmihkalkoekpfd)
 
+<img src="../assets/screenshots/fetchv-chrome.webp" alt="O FetchV mostra a miniatura, a resolução e o botão de download do MP4" width="514">
+
+*O painel mostra uma miniatura e uma opção de 480p para o vídeo da MDN.*
+
 ### Cat Catch (猫抓)
 
 Extensão gratuita e de código aberto sob licença GPL-3.0. Monitora as requisições da página para encontrar arquivos de mídia e playlists HLS ou DASH. Tem prévia e ferramentas para analisar playlists. Se a página carregar vários recursos, confira o tipo, o tamanho e a prévia para localizar o vídeo desejado. A variedade de controles ajuda quem precisa examinar de perto os recursos carregados. [Projeto Cat Catch no GitHub](https://github.com/xifangczy/cat-catch) · [Captura oficial do painel](https://github.com/xifangczy/cat-catch/blob/master/README/popup.png)
+
+<img src="../assets/screenshots/cat-catch-chrome.webp" alt="O Cat Catch mostra flower.mp4 com botões para copiar, visualizar e baixar" width="640">
+
+*A lista da página atual mostra flower.mp4 da MDN com opções para copiar, visualizar e baixar.*
 
 ## Exemplos por site
 
